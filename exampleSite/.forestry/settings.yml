@@ -15,9 +15,8 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: exampleSite/config.yaml
+  path: exampleSite/config.toml
   label: Configuration
-  match: "**/*"
 upload_dir: exampleSite/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
